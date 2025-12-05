@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 150px 90px;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 120px 60px;
+    max-width: 1000px;
+    margin: 80px auto;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.about {
+    background-color: #333;
+    color: white;
+}
+
+.contact {
+    background-color: #333;
+    color: white;
+    
+}
+
+#contact .contact-item {
+  height: 40px;
+}
+
+.email-logo {
+  height: 100px;
+}
+.hobbies {
+    background-color: #333;
+    color: white;
+}
+
+.hobbies ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.intel-inside p {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+}
+
+section,
+header {
+    display: none;
+}
+
+:target {
+    display: block;
+}
+
+#home {
+    display: block;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;   
+  gap: 20px;             
+  font-size: 18px;
+  margin-top: 0.7rem 
+  
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+
+}
+
+.contact-pic {
+  display: flex;
+  align-items: center;   
+  gap: 20px;             
+  font-size: 18px;
+  margin-top: 0.7rem
+}
+
+.contact-pic img {
+  width: 43px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+}
